@@ -14,6 +14,8 @@
 - [P2P-NFR-002] Ядро нужно реализовать с возможностью встраивания в другие типы клиентов. 
 - [P2P-NFR-003] Протокол передачи данных [GossipSub][1]
 - [P2P-NFR-004] ЯП - [golang 1.21.4][2]
+- [P2P-NFR-005] [e2e тесты][3].
 
 [1]: https://go.dev/dl/
 [2]: https://research.protocol.ai/blog/2019/a-new-lab-for-resilient-networks-research/PL-TechRep-gossipsub-v0.1-Dec30.pdf
+[3]: https://software-testing.ru/library/testing/testing-for-beginners/3978-e2e-testing-manifesto
