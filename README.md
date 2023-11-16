@@ -3,18 +3,18 @@
 # Цель проекта - разработка однорангового мессенджера с шифрованием сообщений для общения по защищенному каналу связи.
 
 # Функциональные требования:
-- [P2P-FR-001] Экспорт информации участника сети.
-- [P2P-FR-002] Импорт нформации участника сети.
-- [P2P-FR-003] Отправка текстовых сообщений.
-- [P2P-FR-004] Отправка файлов.
-- [P2P-FR-005] Сквозное шифрование.
+- [P2P-FR-001](./requirements/functional/P2P-FR-001.md) Экспорт информации участника сети.
+- [P2P-FR-002](./requirements/functional/P2P-FR-002.md) Импорт информации участника сети.
+- [P2P-FR-003](./requirements/functional/P2P-FR-003.md) Отправка текстовых сообщений.
+- [P2P-FR-004](./requirements/functional/P2P-FR-004.md) Отправка файлов.
+- [P2P-FR-005](./requirements/functional/P2P-FR-005.md) Сквозное шифрование.
 
 # Нефункциональные требования:
-- [P2P-NFR-001] Архитектура проекта должна быть модульной и содержать минимум: ядро для работы с сетью и консольный клиент.
-- [P2P-NFR-002] Ядро нужно реализовать с возможностью встраивания в другие типы клиентов. 
-- [P2P-NFR-003] Протокол передачи данных [GossipSub][1]
-- [P2P-NFR-004] ЯП - [golang 1.21.4][2]
-- [P2P-NFR-005] [e2e тесты][3].
+- [P2P-NFR-001](./requirements/non-functional/P2P-NFR-001.md) Архитектура проекта должна быть модульной и содержать минимум: ядро для работы с сетью и консольный клиент.
+- [P2P-NFR-002](./requirements/non-functional/P2P-NFR-002.md) Ядро нужно реализовать с возможностью встраивания в другие типы клиентов. 
+- [P2P-NFR-003](./requirements/non-functional/P2P-NFR-003.md) Протокол передачи данных [GossipSub][1]
+- [P2P-NFR-004](./requirements/non-functional/P2P-NFR-004.md) ЯП - [golang 1.21.4][2]
+- [P2P-NFR-005](./requirements/non-functional/P2P-NFR-005.md) [e2e тесты][3].
 
 [1]: https://go.dev/dl/
 [2]: https://research.protocol.ai/blog/2019/a-new-lab-for-resilient-networks-research/PL-TechRep-gossipsub-v0.1-Dec30.pdf
