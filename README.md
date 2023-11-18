@@ -8,7 +8,7 @@
 - [P2P-FR-003](./requirements/functional/P2P-FR-003.md) Отправка текстовых сообщений.
 - [P2P-FR-004](./requirements/functional/P2P-FR-004.md) Отправка файлов.
 - [P2P-FR-005](./requirements/functional/P2P-FR-005.md) Сквозное шифрование.
-- [P2P-FR-006](./requirements/non-functional/P2P-NFR-006.md) Наличие консольного клиента.
+- [P2P-FR-006](./requirements/non-functional/P2P-FR-006.md) Наличие консольного клиента.
 
 # Нефункциональные требования:
 - [P2P-NFR-001](./requirements/non-functional/P2P-NFR-001.md) Архитектура проекта должна быть модульной и содержать минимум: ядро для работы с сетью и консольный клиент.
